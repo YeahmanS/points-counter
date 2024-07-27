@@ -76,3 +76,17 @@ function gamereset() {
     document.getElementById("player1-literal-score").textContent = "LOVE";
     document.getElementById("player2-literal-score").textContent = "LOVE";
 }
+
+function checkOrientation() {
+    if (window.innerHeight > window.innerWidth) {
+        // Device is in portrait mode
+        alert('Please rotate your device to landscape mode.');
+    }
+}
+
+// Check orientation on page load
+window.addEventListener('load', checkOrientation);
+
+// Check orientation on resize/orientation change
+window.addEventListener('resize', checkOrientation);
+window.addEventListener('orientationchange', checkOrientation);
