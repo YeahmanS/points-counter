@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('SuperPixel-m2L8j.ttf') format('truetype');
+}
+
+
+
+html, body {
+    background-color: #27ae60;
+    height: 100%;
+    margin: 0; 
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+}
+
+
+.heading{
+    width: 848px;
+    text-align: center;
+    border-top: 8px solid white;
+    border-left: 8px solid white;
+    border-right: 8px solid white;
+    border-bottom: 4px solid white;
+}
+
+.bottom{
+    width: 848px;
+    text-align: center;
+    border-top: 4px solid white;
+    border-left: 8px solid white;
+    border-right: 8px solid white;
+    border-bottom: 8px solid white;
+
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-box{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.third-box{
+    display: flex;
+    flex-direction: row;
+}
+
+#player1-gif{
+    width: 160px;
+    height: 408px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 8px solid white;
+    border-right: 4px solid white;
+}
+
+#player1-score {
+    width: 260px;
+    height: 400px;
+}
+
+#player2-score {
+    width: 260px;
+    height: 400px;
+}
+
+#player2-gif{
+    width: 160px;
+    height: 408px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 8px solid white;
+
+}
+
+#player1-info{
+    height: 200px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    font-family: Mycustomfont;
+    color: #0c7137;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#player1-current-score{
+    height: 200px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+
+#player2-info{
+    height: 200px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+}
+
+#player2-current-score{
+    height: 200px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+}
+
